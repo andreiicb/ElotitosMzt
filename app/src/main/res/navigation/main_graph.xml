@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.elotitosmzt.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <deepLink
+            android:id="@+id/deepLink2"
+            app:uri="elotitos://login" />
+    </fragment>
+    <activity
+        android:id="@+id/signUpActivity"
+        android:name="com.example.elotitosmzt.ui.activities.SignUpActivity"
+        android:label="activity_sign_up"
+        tools:layout="@layout/activity_sign_up">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="elotitos://signup" />
+    </activity>
+    <activity
+        android:id="@+id/ordersActivity"
+        android:name="com.example.elotitosmzt.ui.activities.OrdersActivity"
+        android:label="activity_orders"
+        tools:layout="@layout/activity_orders">
+        <deepLink
+            android:id="@+id/deepLink3"
+            app:uri="elotitos://orders" />
+    </activity>
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "527383308955",
+    "project_id": "elotitosmzt",
+    "storage_bucket": "elotitosmzt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527383308955:android:cb88425962cb2852fe743e",
+        "android_client_info": {
+          "package_name": "com.example.elotitosmzt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrRei5DwaZ697otQEklWUQvtnL2TcJ_eE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
